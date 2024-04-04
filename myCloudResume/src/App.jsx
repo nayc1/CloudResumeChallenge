@@ -1,13 +1,22 @@
-import Header from './header_/header.jsx'
-import Footer from './footer_/footer.jsx'
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
+import Profile from './pages/profilepage/profile.jsx'
+import FuturePage from'./pages/futurePage/futurePage.jsx' 
+
 function App() {
 
   return (
     <>
 
-    <Header></Header>
-    <Footer></Footer>
-
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element = { <Profile></Profile>}></Route>
+          <Route path ="/home" element = {<Profile></Profile>}></Route>
+          <Route path ="/future_projects" element ={<FuturePage></FuturePage>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+    
     </>
   );
   

@@ -1,0 +1,6 @@
+.container{
+    display:flex;
+    grid-column: span 2;
+    align-items: center;
+    justify-content: center;
+}

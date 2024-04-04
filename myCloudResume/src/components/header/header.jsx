@@ -1,13 +1,13 @@
+import styles from './header.module.css'
 
 function Header (){
     return (
-        <header>
-         MY CLOUD RESUME.
-         
+        <header className = {styles.container}>
+        
+        <div className={styles.title}> MY CLOUD RESUME.</div>
           <nav>
-              <ul>
+              <ul className = {styles.navbar}>
                   <li>Profile</li>
-                  <li>Portfolio</li>
                   <li>Future Goals</li>
                   <li>Certifications</li>
               </ul>

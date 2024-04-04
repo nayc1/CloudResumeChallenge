@@ -1,0 +1,41 @@
+.container{
+    height: 90vh;
+    overflow:auto;
+    background-color: hsl(0, 12%, 80%);
+    border: 5px solid ;
+    border-color:rgb(206, 169, 174);
+    border-left-style: double;
+}
+.profileList{
+    list-style-type: none;
+    height: 60%;
+    padding: 0 2.5% 0 2.5%;
+}
+.qualCard{
+    border-style: inset;
+    border-color: hsla(0, 16%, 43%, 0.719);
+    border-radius: 5px;
+}
+.qualTitle{
+    color: hsl(240, 30%, 34%);
+    font-size: 1.3em;
+    border-bottom: groove 5px;
+    border-color: hsl(0, 7%, 53%);
+    width: fit-content;
+    margin-left: 1%;
+}
+.qualDesc{
+    color:hsl(192, 64%, 20%);
+    font-size: 1.1em;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-indent: 20px;
+}
+.firstParagraph{
+    color:hsl(0, 90%, 4%);
+    font-size: 1.2em;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 1% 1%;
+
+}
